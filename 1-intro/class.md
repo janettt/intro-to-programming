@@ -274,6 +274,10 @@ To include a CSS file from HTML page:
 
 ---
 
+# Inspector
+
+---
+
 # Bootstrap
 
 ### http://getbootstrap.com/
