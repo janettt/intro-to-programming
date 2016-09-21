@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>More elements examples</title>
+  </head>
+  <body>
+
+    <h1>Some other HTML elements</h1>
+
+    <h2>Line breaks</h2>
+    <p>
+      This paragraph contains line breaks.<br />So we can write in different lines in the same paragraph.<br />
+      Lorem <br />
+      ipsum <br />
+      dolor.
+    </p>
+
+    <div>
+      <h2>Containers</h2>
+      <p>
+      A <code>&lt;div&gt;</code> is a generic block container usually used to group different elements that belong to a same logic unit, like this group of paragraphs with its header.
+      </p>
+      <p>This paragraph contains a <span>span</span>. Spans are generic inline containers, with a similar use as <code>&lt;div&gt;</code>s.</p>
+    </div>
+
+    <div>
+      <h2>Forms</h2>
+
+      <form action="">
+        <p>
+          <label for="name">Name:</label> <input type="text" name="name" required />
+        </p>
+        <p>
+          <label for="email">Email:</label> <input type="email" name="email" />
+        </p>
+
+        <p>
+          <label for="city">City:</label>
+          <select name="city">
+            <option value="Berlin">Berlin</option>
+            <option value="New York City">New York City</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+          </select>
+        </p>
+
+        <p>
+          <label>Gender:</label>
+          <br />
+          <label>
+            <input type="radio" name="gender" value="M">
+            Male
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="gender" value="F">
+            Female
+          </label>
+        </p>
+
+        <p>
+          <label for="bio">Bio:</label>
+          <br>
+          <textarea name="bio" rows="6" cols="40"></textarea>
+        </p>
+
+        <p>
+          <label>
+            <input type="checkbox" value="1" name="terms" required />
+            Accept terms and conditions?
+          </label>
+        </p>
+
+        <p>
+          <input type="submit" value="Submit" />
+        </p>
+      </form>
+    </div>
+
+
+  </body>
+</html>
